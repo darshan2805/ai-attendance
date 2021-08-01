@@ -1,2 +1,2 @@
 # ai-attendance
-AI-Powered Hourly Attendance Capturing System for colleges
+AI-Powered Hourly Attendance Capturing System for colleges students
