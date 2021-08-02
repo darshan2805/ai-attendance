@@ -19,4 +19,4 @@ def stats():
     return render_template('stats.html',a=sum(r),b=str(r[0]),c=str(r[1]),d=str(r[2]),e=str(r[3]))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=5000)
