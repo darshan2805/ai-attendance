@@ -9,8 +9,8 @@ import boto3
 import csv
 
 client = boto3.client('rekognition',
-                      aws_access_key_id = "AKIA6EU4O47LMMCGOOXJ",
-                      aws_secret_access_key = "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",
+                      aws_access_key_id = "",
+                      aws_secret_access_key = "",
                       region_name = 'ap-south-1')
 
 def create_collection(collection_id):
