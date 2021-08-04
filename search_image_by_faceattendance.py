@@ -28,15 +28,15 @@ faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
                                     
 #Creation of ecſent to HeRognition Service 
 client = boto3.client('rekognition',
-                      aws_access_key_id = "AKIA6EU4O47LMMCGOOXJ", 
-                      aws_secret_access_key = "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",
+                      aws_access_key_id = "", 
+                      aws_secret_access_key = "",
                       region_name = 'ap-south-1')
 
 # Creation of client to S3 Service
 
 s3client = boto3.client("s3",
-                       aws_access_key_id = "AKIA6EU4O47LMMCGOOXJ", 
-                      aws_secret_access_key = "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",
+                       aws_access_key_id = "", 
+                      aws_secret_access_key = "",
                       region_name = 'ap-south-1')
 
 #Defining of upload image function to 53 
